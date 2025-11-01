@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "name": "Creative & Design",
+      "icon": "🎨",
+      "subcategories": [
+        "Graphic Design",
+        "Photography & Videography",
+        "Content Creation",
+        "Animation & Motion Graphics",
+        "UI/UX & Web Design"
+      ]
+    },
+    {
+      "name": "Tech & Digital",
+      "icon": "💻",
+      "subcategories": [
+        "Web Development",
+        "App Development",
+        "Data Entry & Transcription",
+        "IT Support",
+        "Digital Marketing"
+      ]
+    },
+    {
+      "name": "Education & Tutoring",
+      "icon": "📚",
+      "subcategories": [
+        "Academic Tutoring",
+        "Skill Mentorship",
+        "Test Preparation",
+        "Language Lessons",
+        "Career Coaching"
+      ]
+    },
+    {
+      "name": "Manual & Field Work",
+      "icon": "🧰",
+      "subcategories": [
+        "Delivery & Errands",
+        "Cleaning & Maintenance",
+        "Gardening & Landscaping",
+        "Construction & Handyman Work",
+        "Waste Collection & Recycling"
+      ]
+    },
+    {
+      "name": "Events & Entertainment",
+      "icon": "🎤",
+      "subcategories": [
+        "Event Planning & Coordination",
+        "MC / DJ / Performer Services",
+        "Catering Assistance",
+        "Ushering & Hospitality",
+        "Event Photography & Videography"
+      ]
+    },
+    {
+      "name": "Business & Office Support",
+      "icon": "📠",
+      "subcategories": [
+        "Typing & Documentation",
+        "Customer Support",
+        "Market Research",
+        "Bookkeeping & Data Entry",
+        "Sales & Marketing Assistance"
+      ]
+    },
+    {
+      "name": "Lifestyle & Personal Services",
+      "icon": "💇",
+      "subcategories": [
+        "Personal Training",
+        "Makeup & Styling",
+        "Errand Running",
+        "Pet Care",
+        "House Sitting"
+      ]
+    },
+    {
+      "name": "Community & Volunteer Work",
+      "icon": "🤝",
+      "subcategories": [
+        "Environmental Cleanups",
+        "Community Tutoring",
+        "Charity Events",
+        "Health Awareness Drives",
+        "Youth Mentorship"
+      ]
+    }
+  ]
+}
