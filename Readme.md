@@ -1,16 +1,38 @@
-# React + Vite
+# GigMap — Youth Empowerment through Local Micro Gigs
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+GigMap is a community-driven platform that connects young people to short-term, local, and skill-building gigs.  
+It empowers youth by creating easy access to small jobs while helping communities find affordable, trusted help.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Project Overview
 
-## React Compiler
+Many young people possess useful skills but have limited access to formal employment or digital platforms.  
+GigMap bridges this gap by providing a simple, accessible web app where users can:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Discover nearby or online gigs
+- Post small jobs or errands
+- Build work experience and confidence
+- Connect with peers and grow their network
 
-## Expanding the ESLint configuration
+Built during the **Hackathon 2025 (2-hour vibe coding challenge)** using:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Frontend: React (Vite)
+- Backend: Firebase (Authentication, Firestore, Hosting)
+
+---
+
+## Key Features
+
+- Firebase Authentication for secure user sign-up and login  
+- Firestore Database for real-time gig posting and updates  
+- Gig Posting and Discovery for youth and small businesses  
+- Localized job matching by category or location  
+- Peer Feedback System for ratings and credibility  
+- Responsive React interface suitable for mobile and desktop  
+- Deployed using Firebase Hosting for quick and reliable access
+
+---
+
+## Firestore Data Structure
+
