@@ -125,7 +125,7 @@ const AuthPage = () => {
           </div>
         )}
 
-        <form onSubmit={handleSubmit} className="space-y-5">
+        <form onSubmit={handleSubmit} className="space-y-4">
           {isSignUp && (
             <div>
               <label className="block text-sm font-medium text-gray-700 mb-2">
@@ -154,7 +154,7 @@ const AuthPage = () => {
             />
           </div>
 
-          <div>
+          <div className={isSignUp ? 'pb-2' : 'pb-4'}>
             <label className="block text-sm font-medium text-gray-700 mb-2">
               Password
             </label>
@@ -169,7 +169,7 @@ const AuthPage = () => {
           </div>
 
           {isSignUp && (
-            <div className="pt-2">
+            <div className="pt-3 pb-2">
               <label className="block text-sm font-medium text-gray-700 mb-3">
                 I want to...
               </label>
@@ -204,7 +204,7 @@ const AuthPage = () => {
           <button
             type="submit"
             disabled={loading}
-            className="w-full mt-6 bg-blue-600 text-white py-3 rounded-lg font-semibold hover:bg-blue-700 disabled:opacity-50 disabled:cursor-not-allowed"
+            className="w-full pt-2 bg-blue-600 text-white py-3 rounded-lg font-semibold hover:bg-blue-700 disabled:opacity-50 disabled:cursor-not-allowed"
           >
             {loading ? 'Loading...' : isSignUp ? 'Sign Up' : 'Sign In'}
           </button>
